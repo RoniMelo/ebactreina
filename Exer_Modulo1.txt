@@ -1,0 +1,64 @@
+################ HTML: ################
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Tutorial</title>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+##### CSS:################
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+}
+
+################ JAVASCRIPT:################
+
+<button onclick="myFunction()">Click Me!</button>
+
+<script>
+function myFunction() {
+  let x = document.getElementById("demo");
+  x.style.fontSize = "25px";
+  x.style.color = "red";
+}
+</script>
+
+### HTML, CSS, e JAVASCRIPT ####
+
+Nesse código, está exemplicado a boa semântica, de organização e marcação do HTML. Está exemplificado o usso CSS, e dinamização do código usando JAVASCRIPT.
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Click the button to change the layout of this paragraph</p>
+
+<button onclick="myFunction()">Click Me!</button>
+
+<script>
+function myFunction() {
+  let x = document.getElementById("demo");
+  x.style.fontSize = "25px"; 
+  x.style.color = "red"; 
+}
+</script>
+
+</body>
+</html>
