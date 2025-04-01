@@ -1,0 +1,18 @@
+h2{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+   background-color: rgba(28, 202, 193, 0.103);
+}
+.cadastrar{
+    background-color: green;
+}
+.apagar{
+    background-color: blue ;
+}
+label{
+    font-weight:bold;
+    color:blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
